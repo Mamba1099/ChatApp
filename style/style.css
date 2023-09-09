@@ -81,6 +81,12 @@ body {
     position: absolute;
     right: 15px;
     margin-top: 5px;
+    color: #ccc;
+    top: 50%;
+    margin-right: -13px;
+    transform: translateX(-50%);
+    cursor: pointer;
+
 }
 .form form .button input {
     margin-top: 13px;
