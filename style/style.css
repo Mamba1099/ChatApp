@@ -41,8 +41,9 @@ body {
     text-align: center;
     border-radius: 9px;
     margin-bottom: 10px;
-    border: 1px solid #f5c6cb
+    border: 1px solid #f5c6cb;
 }
+
 .form form .name-details {
     display: flexbox;
 }
@@ -74,6 +75,9 @@ body {
 .form form .image input {
     font-size: 17px;
     border: none;
+}
+.fa-eye {
+    margin-left: 8px;;
 }
 .form form .button input {
     margin-top: 13px;
