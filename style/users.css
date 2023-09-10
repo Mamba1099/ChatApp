@@ -1,0 +1,116 @@
+.users {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    background-color: #fff;
+    z-index: 1;
+}
+.user {
+    overflow-y: auto;
+    height:300px;
+}
+
+.user header,
+.users-list a {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.user header .content img {
+    height: 50px;
+    border-radius: 60px;
+}
+.wrapper img {
+    object-fit: cover;
+    border-radius: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 60px;
+}
+:is(.user, .user-list) .content {
+    display: flex;
+}
+:is(.user, .user-list) .details {
+    margin-left: 15px;
+}
+:is(.user, .user-list) .details span {
+    color:#110505;
+    font-size: 18px;
+    font-weight: 850;
+}
+.user header .details {
+    margin-left: 16px;
+}
+.user header .span {
+    font: 18px;
+    font-weight: 500;
+    margin-left: 16px;
+}
+.user header .logout {
+    color: #fff;
+    padding:7px;
+    background: #333;
+    border-radius: 5px;
+    height: 100%;
+    width: 68px;
+}
+.user .search {
+    margin: 20px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+.user .search input {
+    position: absolute;
+    height: 42px;
+    width: calc(100% -50px);
+    border: 1px solid #ccc;
+    padding: 0 13px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+}
+.user .search button {
+    width: 42px;
+    height: 42px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #333;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    font-size: 18px;
+}
+.users-list {
+    overflow-y: auto;
+
+}
+.users-list a {
+    padding-right: 16px;
+    page-break-after: 10px;
+    border-bottom-color: #f1f1f1;
+}
+.users-list a:last-child {
+    border: none;
+    margin-bottom: 0px;
+}
+.users-list ::-webkit-scrollbar {
+    width: 0px
+}
+.users-list a status-dot {
+    font-size: 12px;
+    color: #468669;
+}
+.users-list a .content p {
+    color: #67676a;
+}
+.users-list a .status-dot.offline {
+    color: #d1a4a4;
+}
+    
