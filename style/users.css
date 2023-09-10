@@ -7,14 +7,13 @@
     z-index: 1;
 }
 .user {
+    max-height: 350px;
     overflow-y: auto;
-    height:300px;
 }
 
 .user header,
 .users-list a {
     display: flex;
-    position: relative;
     align-items: center;
     padding-bottom: 20px;
     justify-content: space-between;
@@ -87,10 +86,7 @@
     border-radius: 0 5px 5px 0;
     font-size: 18px;
 }
-.users-list {
-    overflow-y: auto;
 
-}
 .users-list a {
     padding-right: 16px;
     page-break-after: 10px;
