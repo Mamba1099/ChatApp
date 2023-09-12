@@ -88,6 +88,14 @@ body {
     cursor: pointer;
 
 }
+.field.input .fa-eye.active::before {
+    color: #333;
+    content: "/f070";
+}
+.field.input .fa-eye.active::after {
+    color: black;
+    content: "/f06e";
+}
 .form form .button input {
     margin-top: 13px;
     height: 45px;
