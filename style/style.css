@@ -21,7 +21,6 @@ body {
     box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
                 0 32px 64px -48px rgba(0,0,0,0.9)
 }
-/* sign up form CSS code */
 .form {
     padding: 20px 60px
 }
@@ -42,6 +41,7 @@ body {
     border-radius: 9px;
     margin-bottom: 10px;
     border: 1px solid #f5c6cb;
+    display: none;
 }
 
 .form form .name-details {
@@ -63,7 +63,7 @@ body {
     margin-bottom: 2px;
 }
 .form form .field input {
-    outline: none;
+    outline-color: #3498db;
 }
 .form form .input input {
     height: 40px;
