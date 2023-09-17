@@ -11,3 +11,4 @@ toggleBtn.addEventListener("click", () => {
         toggleBtn.parentElement.classList.remove("active");
     }
 });
+
