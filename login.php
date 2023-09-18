@@ -1,17 +1,34 @@
 <?php
+
+/**
+ * File: chat.php
+ *
+ * This file handles the ChatApp functionality.
+ *
+ * PHP version 7
+ *
+ * @category ChatApp
+ * @package  ChatApp
+ * @author   Sammy Karanja <mambakaranja240@gmail.com>
+ * @license  MIT License
+ * @link     https://@localhost:8080/login.php
+ */
 session_start(); 
 if (isset($_SESSION['unique_id'])) { 
-  header("location: users.php");
+    header("location: users.php");
 }
 ?>
 
-<?php include_once "header.php"; ?>
+<?php require_once "header.php"; ?>
 
 <body>
   <div class="wrapper">
     <section class="form login">
       <header>Realtime Chat App</header>
-      <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
+      <form action="#" 
+            method="POST" 
+            enctype="multipart/form-data" 
+            autocomplete="off">
         <div class="error-text"></div>
         <div class="field input">
           <label>Email Address</label>
@@ -19,7 +36,9 @@ if (isset($_SESSION['unique_id'])) {
         </div>
         <div class="field input">
           <label>Password</label>
-          <input type="password" name="password" placeholder="Enter your password" required>
+          <input type="password" 
+                 name="password"
+                 placeholder="Enter your password" required>
           <i class="fas fa-eye"></i>
         </div>
         <div class="field button">
