@@ -10,7 +10,7 @@
  * @package  ChatApp
  * @author   Sammy Karanja <mambakaranja240@gmail.com>
  * @license  MIT License
- * @link     https://@localhost:8080/index.php
+ * @link     https://@localhost:8080/chat.php
  */
 
 session_start();
