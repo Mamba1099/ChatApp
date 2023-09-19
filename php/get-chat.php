@@ -11,7 +11,7 @@
  * @package  ChatApp
  * @author   Sammy Karanja <mambakaranja240@gmail.com>
  * @license  MIT License
- * @link     https://@localhost:8080/user.php
+ * @link     No link
  */
 session_start();
 if (isset($_SESSION['unique_id'])) { // Checking if the user is logged in or not
