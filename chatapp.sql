@@ -10,6 +10,7 @@ SET time_zone = "+00:00"; --
 
 --
 -- Database: `chatapp`
+CREATE DATABASE IF NOT EXISTS `chatapp` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 --
 
 -- --------------------------------------------------------
